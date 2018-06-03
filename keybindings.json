@@ -1,0 +1,48 @@
+// Placez vos combinaisons de touches dans ce fichier pour remplacer les valeurs par défaut
+[
+    {
+        "key": "ctrl+shift+m",
+        "command": "expand-selection-to-scope.expand"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.debug.panel.action.clearReplAction",
+        "when": "inDebugRepl"
+    },
+    {
+        "key": "cmd+alt+[KeyM]",
+        "command": "editor.action.outdentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+alt+[Comma]",
+        "command": "editor.action.indentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+alt+cmd+[Minus]",
+        "command": "-editor.action.indentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+alt+cmd+5",
+        "command": "-editor.action.outdentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "lafe.duplicateCode"
+    },
+    {
+        "key": "ctrl+k d",
+        "command": "-lafe.duplicateCode"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "editor.action.transformToLowercase"
+    }
+]
